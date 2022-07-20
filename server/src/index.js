@@ -4,7 +4,6 @@ var cors = require('cors')
 
 app.use(cors())
 
-const amazon = require('./amazon')
 const ebay = require('./ebay')
 
 const port = process.env.PORT || 4040
